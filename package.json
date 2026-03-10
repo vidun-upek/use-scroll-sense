@@ -1,0 +1,30 @@
+{
+  "name": "use-scroll-sense",
+  "version": "1.0.0",
+  "description": "A highly efficient React hook for smooth scrolling and Intersection Observer scroll-spy.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidun-upek/use-scroll-sense.git"
+  },
+  "keywords": ["react", "scrollspy", "smooth-scroll", "intersection-observer", "nextjs"],
+  "author": "Vidun Shanuka",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
